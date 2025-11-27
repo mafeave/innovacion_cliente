@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Innovacion</title>
+    <link rel="stylesheet" href="../static/css/styles_i.css">
+    <script src="../static/js/motion_i.js" defer></script>
+</head>
+<body>
+    <div class="box_1">
+        <div class="box_box">
+            <h1>INNOVACION EN PROYECTOS E IDEAS ALCALDIA DE SAN CRISTOBAL</h1>
+            <img src="../static/imagenes/pensador.png" alt="Img info personal/propuesta" class="img_1">
+            <img src="../static/imagenes/check.png" alt="Img check"class="img_2">
+        </div>
+    </div>
+    <div class="box_2">
+        <form class="form_1" id="surveyForm">
+            <div class="header_form">
+                <h2>INFORMACION PERSONAL Y DE PROPUESTA </h2>
+                <p>Todo lo que posea un * es un campo que no puede estar vacio.</p>
+            </div>
+            <p class="secciones">Seccion.1: Informacion personal</p>
+            <div class="form_input">
+                <input type="text" name="nombre" placeholder="Nombre" required>
+            </div>
+            <div class="form_input">
+                <input type="email" name="correo" placeholder="Correo" required>
+            </div>
+            <div class="form_input">
+                <input type="number" name="telefono" placeholder="Telefono" minlength="10" required>
+            </div>
+            <div class="form_input">
+                <select name="tipo_participante" required>
+                    <option value="" disabled selected>Tipo de participante</option>
+                    <option value="contratista">Contratista</option>
+                    <option value="planta">Planta</option>
+                    <option value="ciudadano">Ciudadano</option>
+                </select>
+            </div>
+            <p class="secciones">Seccion.2: Datos generales del proyecto</p>
+            <div class="form_input">
+                <input class="input_2" type="text" name="nombre_proyecto" placeholder="Nombre de tu proyecto" required>
+            </div>
+            <div class="form_input">
+                <textarea class="input_2" name="descripcion_problema" placeholder="Descripcion del problema a abordar" required></textarea>
+            </div>
+            <div class="form_input">
+                <textarea class="input_2" name="solucion_propuesta" placeholder="Solucion al problema que propone resolver" required></textarea>
+            </div>
+            <div class="form_input">
+                <select name="medicion_impacto" required>
+                    <option value="" disabled selected>Area de impacto</option>
+                    <option value="inclusion_social">Inclusion social</option>
+                    <option value="digitalizacion">Digitalizacion o entorno tecnologico</option>
+                    <option value="convivencia_ciudadana">Convivencia ciudadana</option>
+                    <option value="sostenibilidad_ambiental">Sostenibilidad ambiental</option>
+                    <option value="cultura">Cultura</option>
+                    <option value="identidad_local">Identidad local</option>
+                </select>
+            </div>
+            <div class="form_input">
+                <textarea class="input_2" name="resumen_proyecto" placeholder="Breve descripcion del proyecto" maxlength="500" required></textarea>
+            </div>
+            <p class="secciones">Seccion.3: Datos especificos del proyecto</p>
+            <p class="help_guide">¿A cual(es) de las siguientes lineas estrategicas contribuye tu proyecto? (Se puede marcar mas de una)</p>
+            <div class="form_input">
+                <input class="checkbox" value="inst_locales"type="checkbox" name="inst_locales" id="option_a">
+                <label for="option_a">Fortalecimiento de las instituciones locales (mejorar funcionamiento de la Alcaldía, Juntas, etc.)</label>
+            </div>
+            <div class="form_input">
+                <input class="checkbox" value="vig_ctrl_territorio"type="checkbox" name="vig_ctrl_territorio" id="option_b">
+                <label for="option_b">Vigilancia, control y cuidado del territorio (seguridad, orden, prevención)</label>
+            </div>
+            <div class="form_input">
+                <input class="checkbox" value="infraestructura"type="checkbox" name="infraestructura" id="option_c">
+                <label for="option_c">Mejoras en infraestructura local (espacios públicos, vías, servicios)</label>
+            </div>
+            <div class="form_input">
+                <input class="checkbox" value="convivencia_cultura"type="checkbox" name="convivencia_cultura" id="option_d">
+                <label for="option_d">Bogotaniedad, Identidad y cultura bogotana (sentido de pertenencia, cultura ciudadana)</label>
+            </div>
+            <div class="form_input">
+                <input class="checkbox" value="enf_etnico"type="checkbox" name="enf_etnico" id="option_e">
+                <label for="option_e">Enfoque diferencial y étnico (pueblos indígenas, afrodescendientes, grupos diversos)</label>
+            </div>
+            <p class="secciones">Seccion.4: Evaluacion por criterios</p>
+
+            <h3>Pertinencia territorial</h3>
+            <p class="help_guide_2">¿El proyecto responde a un problema real de la localidad o comunidad?</p>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="opt_1" name="respuesta_unica" value="4" required>
+                <label for="opt_1">Muy pertinente</label>
+            </div>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="opt_2" name="respuesta_unica" value="3">
+                <label for="opt_2">Pertinente</label>
+            </div>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="opt_3" name="respuesta_unica" value="2">
+                <label for="opt_3">Poco pertinente</label>
+            </div>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="opt_4" name="respuesta_unica" value="1">
+                <label for="opt_4">No pertinente</label>
+            </div>
+
+            <h3>Cambio cultural o de comportamiento</h3>
+            <p class="help_guide_2">¿El proyecto ayuda a cambiar actitudes o prácticas de forma positiva?</p>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="opc_1" name="respuesta_unica_2" value="4" required>
+                <label for="opc_1">Gran impacto</label>
+            </div>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="opc_2" name="respuesta_unica_2" value="3">
+                <label for="opc_2">Impacto moderado</label>
+            </div>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="opc_3" name="respuesta_unica_2" value="2">
+                <label for="opc_3">Poco impacto</label>
+            </div>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="opc_4" name="respuesta_unica_2" value="1">
+                <label for="opc_4">Sin impacto</label>
+            </div>
+
+            <h3>Participacion e inclusion</h3>
+            <p class="help_guide_2">¿El proyecto involucra a diferentes grupos de la comunidad y promueve la inclusión?</p>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_1" name="respuesta_unica_3" value="4" required>
+                <label for="op_1">Alta inclusion</label>
+            </div>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_2" name="respuesta_unica_3" value="3">
+                <label for="op_2">Inclusion moderada</label>
+            </div>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_3" name="respuesta_unica_3" value="2">
+                <label for="op_3">Inclusion baja</label>
+            </div>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_4" name="respuesta_unica_3" value="1">
+                <label for="op_4">No incluye</label>
+            </div>
+
+            <h3>Sostenibilidad y evaluacion</h3>
+            <p class="help_guide_2">¿El proyecto puede mantenerse en el tiempo y tiene forma de medir resultados?</p>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_1_2" name="respuesta_unica_4" value="4" required>
+                <label for="op_1_2">Si, sostenible con plan claro</label>
+            </div>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_2_2" name="respuesta_unica_4" value="3">
+                <label for="op_2_2">Parcialmente sostenible</label>
+            </div>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_3_2" name="respuesta_unica_4" value="2">
+                <label for="op_3_2">Poco sostenible</label>
+            </div>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_4_2" name="respuesta_unica_4" value="1">
+                <label for="op_4_2">No sostenible</label>
+            </div>
+
+            <h3>Factibilidad tecnica y presupuestal</h3>
+            <p class="help_guide_2">¿El plan es realista con los recursos disponibles?</p>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_1_3" name="respuesta_unica_5" value="4" required>
+                <label for="op_1_3">Totalmente viable</label>
+            </div>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_2_3" name="respuesta_unica_5" value="3">
+                <label for="op_2_3">Parcialmente viable</label>
+            </div>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_3_3" name="respuesta_unica_5" value="2">
+                <label for="op_3_3">Dificilmente viable</label>
+            </div>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_4_3" name="respuesta_unica_5" value="1">
+                <label for="op_4_3">No viable</label>
+            </div>
+
+            <h3>Cumplimiento normativo</h3>
+            <p class="help_guide_2">¿El proyecto cumple con las normas legales, ambientales, técnicas o administrativas que le aplican?</p>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_1_4" name="respuesta_unica_6" value="4" required>
+                <label for="op_1_4">Cumple totalmente</label>
+            </div>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_2_4" name="respuesta_unica_6" value="3">
+                <label for="op_2_4">Cumple la mayoria, faltan ajustes menores</label>
+            </div>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_3_4" name="respuesta_unica_6" value="2">
+                <label for="op_3_4">Cumple poco, requiere cambios importantes</label>
+            </div>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_4_4" name="respuesta_unica_6" value="1">
+                <label for="op_4_4">No cumple</label>
+            </div>
+
+            <h3>Innovacion y valor agregado</h3>
+            <p class="help_guide_2">¿El proyecto propone algo nuevo o diferente que aporte valor?</p>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_1_5" name="respuesta_unica_7" value="4" required>
+                <label for="op_1_5">Muy innovador</label>
+            </div>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_2_5" name="respuesta_unica_7" value="3">
+                <label for="op_2_5">Innovador</label>
+            </div>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_3_5" name="respuesta_unica_7" value="2">
+                <label for="op_3_5">Poco innovador</label>
+            </div>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_4_5" name="respuesta_unica_7" value="1">
+                <label for="op_4_5">Nada innovador</label>
+            </div>
+
+            <h3>Escalabilidad y replicabilidad</h3>
+            <p class="help_guide_2">¿El proyecto puede hacerse también en otros lugares o comunidades?</p>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_1_6" name="respuesta_unica_8" value="4" required>
+                <label for="op_1_6">Si, facilmente</label>
+            </div>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_2_6" name="respuesta_unica_8" value="3">
+                <label for="op_2_6">Con ajustes</label>
+            </div>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_3_6" name="respuesta_unica_8" value="2">
+                <label for="op_3_6">Dificil</label>
+            </div>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_4_6" name="respuesta_unica_8" value="1">
+                <label for="op_4_6">No aplicable</label>
+            </div>
+
+            <h3>Articulacion con actores locales</h3>
+            <p class="help_guide_2">¿El proyecto involucra o trabaja junto con otras organizaciones del territorio?</p>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_1_7" name="respuesta_unica_9" value="4" required>
+                <label for="op_1_7">Alta articulacion</label>
+            </div>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_2_7" name="respuesta_unica_9" value="3">
+                <label for="op_2_7">Media</label>
+            </div>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_3_7" name="respuesta_unica_9" value="2">
+                <label for="op_3_7">Baja</label>
+            </div>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_4_7" name="respuesta_unica_9" value="1">
+                <label for="op_4_7">Ninguna</label>
+            </div>
+
+            <h3>Numero de beneficiarios directos</h3>
+            <p class="help_guide_2">¿Cuántas personas se beneficiarán directamente con el proyecto?</p>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_1_8" name="respuesta_unica_10" value="4" required>
+                <label for="op_1_8">51 a 70 personas (impacto alto)</label>
+            </div>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_2_8" name="respuesta_unica_10" value="3">
+                <label for="op_2_8">31 a 50 personas (impacto intermedio)</label>
+            </div>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_3_8" name="respuesta_unica_10" value="2">
+                <label for="op_3_8">11 a 30 personas (impacto bajo)</label>
+            </div>
+            <div class="form_input">
+                <input class= "checkbox" type="radio" id="op_4_8" name="respuesta_unica_10" value="1">
+                <label for="op_4_8">1 a 10 personas (impacto muy bajo)</label>
+            </div>
+
+            <div class="submit">
+                <input class="submit_1" type="submit"> 
+            </div>
+        </form>
+    </div>
+</body>
+</html>

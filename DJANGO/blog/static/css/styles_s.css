@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&display=swap');
+
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-image:url(../imagenes/Roca.png);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.a_1{
+    text-decoration: none;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #303030;
+    padding: 5px;
+    box-shadow: 0 0 10px 0 rgb(236, 236, 15);
+    border: 2px solid rgba(192, 196, 3, 0.6);
+    border-radius: 7px;
+}
+
+.box_box{
+    width: 100%;
+    background:linear-gradient(to right,#120000,transparent 80%,transparent 15%,#120000);
+    margin: 0;
+    border: 0;
+    padding: 30px 0;
+    display: flex; 
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.box_1{
+    width: 100%;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-image:url(https://images.unsplash.com/photo-1667757526327-dbe1edd781d2?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUMzJUExcmJvbCUyMGRlbCUyMHBhcnF1ZXxlbnwwfHwwfHx8MA%3D%3D);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header{
+    width: 35%;
+    height: 80%;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    padding: 80px 50px 80px 20px;
+    background-color: transparent;
+    text-align: left;
+}
+
+.h_header{
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+    color: #fafafa;
+    margin-bottom: 10px;
+    margin-right: 10px;
+
+}
+
+.p_header{
+    font-family:sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    color: #f6f6f6;
+    margin:0;
+    margin-left: 6px;
+}
+
+.buttom_area{
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta-button {
+    text-decoration: none;
+    color: #1e1e1e;
+    background-color: whitesmoke;
+    padding: 25px 50px;
+    border-radius: 8px;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    box-shadow: 0px 0px 20px 10px yellow;
+}
+h2{
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+    color: black;
+    margin: 0;
+    padding: 10px 0;
+    padding-left: 10px;
+    background-color: transparent;
+}
+h3{
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+    color: black;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+p{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    color: black;
+    margin:0;
+    margin-left: 10px;
+    padding-bottom: 50px;
+}
+.info{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    color: #e6e6e6;
+    margin:0;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+img{
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    margin-right: 1px;
+    margin-left: 10px;
+    filter:drop-shadow(0px 0px 3px #ffffff)
+}
+.box_2{
+    width: 98%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: whitesmoke;
+    padding: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0.5px #000;
+}
+.box_2_1{
+    padding: 0;
+    border: 0;
+    border-left: solid 6px #0005;
+    margin: 0;
+    margin-left: 10px;
+    background-color: transparent;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.Explain{
+    width: 50%;
+    border:0;
+    margin: 0;
+    margin-left: 20px;
+    background-color: transparent;
+    text-align: left;
+    line-height: 28px;
+    padding: 15px 20px;
+    justify-content: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.space_image_1{
+    width: 45%;
+    height: 500px;
+    padding: 0;
+    border: 0;
+    border-bottom: solid 4px #120000;
+    border-radius: 10px;
+    margin: 0;
+    margin-right: 20px;
+    background-image: url(https://bogota.gov.co/sites/default/files/styles/1050px/public/2025-10/Avanzan%20en%2062%25%20las%20obras%20e%20intervenciones%20de%20vi%CC%81as%20en%20Engativa%CC%81%20Bogota%CC%81%20octubre%202025.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 0.5px #0007;
+} 
+.box_2_2{
+    padding: 0;
+    border: 0;
+    border-right: solid 6px #0005;
+    margin: 0;
+    margin-right: 10px;
+    margin-top: 20px;
+    background-color:transparent;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    box-sizing: border-box;
+    
+}
+.space_image_2{
+    width: 45%;
+    height: 500px;
+    padding: 0;
+    border: 0;
+    border-bottom: solid 4px #120000;
+    border-radius: 10px;
+    margin: 0;
+    margin-left: 20px;
+    background-image: url(https://bogota.gov.co/sites/default/files/styles/1050px/public/2025-10/universidades-de-bogota-se-suman-a-la-transparencia-local.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 0.5px #0007;
+}
+.Explain_2{
+    width: 50%;
+    border:0;
+    margin: 0;
+    margin-right: 20px;
+    background-color: transparent;
+    text-align: right;
+    line-height: 28px;
+    padding: 15px 20px;
+    justify-content: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.space_image_3{
+    width: 45%;
+    height: 500px;
+    padding: 0;
+    border: 0;
+    border-bottom: solid 4px #120000;
+    border-radius: 10px;
+    margin: 0;
+    margin-left: 20px;
+    background-image: url(https://bogota.gov.co/sites/default/files/styles/1050px/public/2025-10/bogota-inaugura-el-primer-sistema-solar-en-una-alcaldia-local.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 0.5px #0007;
+}
+.space_image_4{
+    width: 45%;
+    height: 500px;
+    padding: 0;
+    border: 0;
+    border-bottom: solid 4px #120000;
+    border-radius: 10px;
+    margin: 0;
+    margin-right: 20px;
+    background-image: url(../imagenes/Chatico.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 0.5px #0007;
+}
+
+.box_3{
+    width: 100%;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-image:url(https://images.freeimages.com/images/large-previews/2ab/texture-autumn-leafs-1160545.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.box_box_2{
+    width: 100%;
+    background:linear-gradient(to right,#120000,transparent 80%,transparent 15%,#120000);
+    margin: 0;
+    border: 0;
+    padding: 30px 0;
+    display: flex; 
+    justify-content: flex-start;
+    align-items: center;
+}
+.contact{
+    color: #efefef;
+}
+
+
+@media (max-width: 768px){
+
+
+    .box_box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+        background: linear-gradient(to bottom, #120000, transparent 80%, transparent 15%, #120000);
+    }
+
+    .header {
+        width: 90%;
+        padding: 40px 10px 20px 10px;
+        text-align: center;
+    }
+
+    .h_header {
+        font-size: 32px;
+        margin-right: 0;
+    }
+
+    .p_header {
+        font-size: 16px;
+        margin-left: 0; 
+    }
+
+    .buttom_area {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .cta-button {
+        font-size: 0.9em;
+        padding: 10px 10px;
+    }
+
+    
+    .box_2 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 95%; 
+    }
+
+    .box_2_1,
+    .box_2_2 {
+        flex-direction: column;
+        border: none;
+    }
+
+    .Explain,
+    .Explain_2 {
+        width: 90%; 
+        margin: 15px auto;
+        padding: 10px;
+        line-height: 1.6; 
+        text-align: left;
+    }
+
+    .space_image_1,
+    .space_image_2,
+    .space_image_3,
+    .space_image_4 {
+        width: 95%; 
+        height: 250px; 
+        margin: 20px auto;
+    }
+
+
+
+    h2 {
+        font-size: 26px;
+        letter-spacing: 1px;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    h3 {
+        font-size: 22px;
+        margin-right: 0;
+    }
+
+    p {
+        font-size: 16px;
+        margin-left: 0; 
+        padding-bottom: 20px; 
+    }
+
+
+    .box_box_2 > div {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    h2.contact {
+        text-align: center;
+    }
+
+    p.info {
+        font-size: 16px;
+        margin-left: 0; 
+        padding-bottom: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap; 
+
+    img {
+        margin-right: 8px;
+        margin-left: 0;
+    }
+}
+}
+
+@media (max-width: 1180px) and (min-width: 769px) {
+    .box_box {
+        flex-direction: column; 
+        align-items: center;
+        text-align: center;
+        background: linear-gradient(to bottom, #120000, transparent 80%, #120000); 
+    }
+    .header {
+        width: 80%; 
+        padding: 50px 10px 30px 10px;
+        text-align: center;
+    }
+    .h_header {
+        font-size: 40px; 
+    }
+    .p_header {
+        font-size: 18px;
+        margin-left: 0;
+    }
+    .buttom_area {
+        width: 80%;
+        padding-bottom: 30px;
+    }
+    .box_2_1,
+    .box_2_2 {
+        flex-direction: column; 
+        border-left: none; 
+        border-right: none;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .box_2_2 {
+        flex-direction: column-reverse;
+    }
+
+    .Explain,
+    .Explain_2 {
+        width: 90%; 
+        margin: 20px auto;
+        padding: 10px 20px;
+        text-align: left; 
+    }
+
+    .space_image_1,
+    .space_image_2,
+    .space_image_3,
+    .space_image_4 {
+        width: 90%;
+        height: 400px; 
+        margin: 20px auto;
+    }
+    .form_1 {
+        width: 80%; 
+        margin: auto;
+    }
+    
+    .Rueda_y_texto {
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .circulo-progreso {
+        width: 300px; 
+        height: 300px;
+        margin: 30px auto;
+    }
+    .circulo-interior {
+        width: 275px;
+        height: 275px;
+    }
+    .texto-resultado {
+        width: 90;
+    }
+}
